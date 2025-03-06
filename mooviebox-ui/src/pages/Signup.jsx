@@ -85,6 +85,7 @@ export default function Signup() {
 
 const Container = styled.div`
     position: relative;
+    
     .content {
         position: absolute;
         top: 0;
@@ -94,6 +95,7 @@ const Container = styled.div`
         width: 100vw;
         display: grid;
         grid-template-rows: 15vh 85vh;
+        
         .body {
             gap: 1rem;
 

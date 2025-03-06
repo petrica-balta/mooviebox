@@ -6,7 +6,7 @@ export default function SelectGenre({ genres, type }) {
     const dispatch = useDispatch();
     return (
         <Select
-            className="flex"
+            className="flex custom-select"
             onChange={(e) => {
                 dispatch(
                     fetchDataByGenre({
@@ -29,9 +29,9 @@ export default function SelectGenre({ genres, type }) {
 }
 
 const Select = styled.select`
-  margin-left: 5rem;
-  cursor: pointer;
-  font-size: 1.4rem;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
+    margin-left: 5rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    background-color: black;
+    color: white;
 `;
